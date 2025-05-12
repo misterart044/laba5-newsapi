@@ -23,9 +23,10 @@ async function getDataFromApi(query, apiKey) {
 }
 
 // Основна функція
+
 async function main() {
     const config = await loadConfig('config.json');
-
+// Створення інтерфейсу
     const rl = readline.createInterface({
         input: process.stdin,
         output: process.stdout
